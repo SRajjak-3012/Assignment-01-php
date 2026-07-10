@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Document</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark></h1>
+        <em>A project designed by <strong>TuteDude</strong> to learn HTML</em>
+        <p>Best TuteDude in town since 2021</p>
+        <nav>
+            <ul>
+            <li><a href="">About TD</a></li>
+            <li><a href="">Our Menu</a></li>
+            <li><a href="">Taco Trivia</a></li>
+            <li><a href="">Extras</a></li>
+            <li><a href="">Feedback Form</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="hero">
+            <img src="tutedude.jpg" alt="Image"><br>
+            <caption>TuteDude and a drink</caption>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <div class="about">
+            <h2>About <span style="border-bottom: 2px dotted black;">TD</span></h2>
+            <p><span style="border-bottom: 2px dotted black;">TD</span>
+            was foundit in 2021. This demo project was created by <strong>TuteDude</strong>
+            for learning all major HTML tags.</p>
+            <p>
+               Level up your carrer with expert mentrorship & internship for free.
+            </p>
+        </div>
+        <hr>
+        <div class="menu">
+            <h2>Our Menu</h2>
+        <table border="1" >
+            <p>TuteDude Complete Taco-Menu</p>
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2">Category</th>
+                    <th scope="col" rowspan="2">Type</th>
+                    <th scope="col" colspan="2">Small Portion</th>
+                    <th scope="col" colspan="2">Large Portion</th>
+                </tr>
+                <tr>
+                    <th scope="col">Qty.</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Qty.</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th rowspan="3">TuteDude</th>
+                <td>Crunchy (Beef)</td>
+                <td>1</td>
+                <td>$1.50</td>
+                <td>3</td>
+                <td>$3.25</td>
+                </tr>
+                <tr>
+                    <td>Crunchy (Chicken)</td>
+                    <td>1</td>
+                    <td>$1.75</td>
+                    <td>3</td>
+                    <td>$3.50</td>
+                </tr>
+                <tr>
+                    <td>Crunchy (Veggie)
+                        <table border="1" cellpadding="5" cellspacing="0">
+                        <tr>
+                            <th>Nutrient</th>
+                            <th>Value</th>
+                        </tr>
+                        <tr>
+                            <td>Calories</td>
+                            <td>150 kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Protein</td>
+                            <td>5g</td>
+                        </tr>
+                        <tr>
+                            <td>Fiber</td>
+                            <td>4g</td>
+                        </tr>
+                        </table>
+                    </td>
+                    <td>1</td>
+                    <td>$1.25</td>
+                    <td>3</td>
+                    <td>$3.00</td>
+                </tr>
+                <!-- 2nd Part -->
+                <tr>
+                <th rowspan="2">Soft TuteDude</th>
+                <td>Soft (Beef)</td>
+                <td>2</td>
+                <td>$3.50</td>
+                <td>4</td>
+                <td>$6.50</td>  
+                </tr>
+                <tr>
+                <td>Soft (Veggie)</td>
+                <td>2</td>
+                <td>$3.00</td>
+                <td>4</td>
+                <td>$5.50</td>
+                </tr>
+               <!-- 3rd Part --> 
+                <tr>
+                    <th rowspan="2">Combos</th>
+                    <td>2 Crunchy + Drink</td>
+                    <td colspan="2">$4.50</td>
+                    <td rowspan="2" colspan="2">N/A</td>
+                </tr>
+                <tr>
+                    <td> 2 Soft + Drink
+                        <table border="1"<c>
+                            <br>Combo Meals <br>Nutrition Facts
+                            <tr>
+                            <th>Item</th>  <!-- Nested table head -->
+                            <th>Calori</th>
+                            <th>Sugar</th>
+                            </tr>
+                            <tr>   <!-- Nested table rows -->
+                                <td>Soft Taco</td>
+                                <td>200 kcal</td>
+                                <td>2g</td>
+                            </tr>
+                            <tr>
+                                <td>Drink</td>
+                                <td>120 kcal</td>
+                                <td>25g</td>
+                            </tr>
+                            <tr>
+                                <th>Total</th>
+                                <th>320 kcal</th>
+                                <th>27g</th>
+                            </tr>
+                        </table>
+                    </td>
+                    <td colspan="2">$5.00</td>
+                </tr>
+                <tr>  <!-- 4th Part -->
+                <th rowspan="2">Extras</th>
+                <td>Chips & Salsa</td>
+                <td colspan="4">$2.50</td> 
+                </tr>
+                <tr>
+                <td>Guacamole</td>
+                <td colspan="4">$1.50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="6">Average Meal Price Range: $2.00-$6.50</th>
+            </tfoot>
+        </table>
+        <a href="">1. Back to Top</a>
+        </div>
+        <hr>
+        <div class="trivia">
+            <aside>
+                <details>
+                    <summary>When did TuteDude first appear in United States ?</summary>
+                    <p>In 2025</p>
+                </details>   
+            </aside>
+        </div>
+        <hr>
+        <div class="extras">
+            <h2>Media Fun</h2>
+            <h3>Listen to this Music</h3>
+            <audio src="Vande-mataram.mp4" controls></audio>
+            <h3>Watch the Video</h3>
+            <video src="IIT-Guwahati.mp4" controls height="500px" width="400px"></video>
+        </div>
+        <hr>
+        <div class="feedback">
+            <h2>Give us your feedback</h2>
+            <form>
+  <fieldset>
+    <legend>Your Info</legend>
+    <label for="name1">Name :</label>
+    <input type="text" id="name1" name="name1"> 
+    <br><br>
+    <label for="email1">Email :</label>
+    <input type="email" id="email1" name="email1"> <br><br>
+    <label for="browser">Favorite Taco:</label>
+    <input list="browsers" id="browser" name="browser">
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+  </fieldset>
+  <fieldset>
+    <legend >Your Message</legend>
+    <label for="cmnr">Message:</label><br>
+    <textarea name="cmnt" id="cmnt"></textarea>
+  </fieldset>
+  <div class="button">
+    <button>Submit</button>
+  </div>
+</form>
+        </div>
+        <hr>
+    </main>
+
+    <footer>   <!-- Footer Section -->
+        <h2>Contact Us</h2>
+        <address>
+            TuteDude <br>
+            12/A,Queens Hill <br>
+            APJ Education city,Andhra Pradesh,655012 <br>
+            <a href="">info@tutedude.com</a>
+        </address>
+        <br>
+        <time datetime="">
+            © 2025,TuteDude All rights reserved
+        </time>
+
+    </footer>
+
+</body>
+</html>
