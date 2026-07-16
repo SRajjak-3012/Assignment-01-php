@@ -4,7 +4,7 @@ In thiw work im applying HTML various tags & Elements.
 Also Deploy the code in Github and also in Netlify.
 
 # GitHub Deploy Link :
-https://srajjak-3012.github.io/Assignment-01/
+https://srajjak-3012.github.io/Assignment-01-p/
 
 
 # Netlify Deploy Link :
