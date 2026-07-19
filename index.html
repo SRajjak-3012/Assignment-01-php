@@ -3,68 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Document</title>
-    
+    <title>Practise HTML</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to <mark>TuteDude</mark></h1>
-        <em>A project designed by <strong>TuteDude</strong> to learn HTML</em>
-        <p>Best TuteDude in town since 2021</p>
-        <nav>
-            <ul>
-            <li><a href="">About TD</a></li>
+    <!-- header Section -->
+       <header> 
+        <h1>
+        Welcome to  <mark>TuteDude</mark>
+    </h1>
+    </header>
+    <em>A project designed by <strong>TuteDude</strong> to learn HTML</em>
+    <p>Best TuteDude in town since 2021</p>
+    <nav>   <!--navigation menu -->
+        <ul>
+            <li><a href="">About Menu</a></li>
             <li><a href="">Our Menu</a></li>
             <li><a href="">Taco Trivia</a></li>
             <li><a href="">Extras</a></li>
             <li><a href="">Feedback Form</a></li>
             <li><a href="">Contact</a></li>
         </ul>
-        </nav>
-        <div class="hero">
-            <img src="tutedude.jpg" alt="Image"><br>
-            <caption>TuteDude and a drink</caption>
-        </div>
-        <hr>
-    </header>
+    </nav>
+    <div class="hero">       <!-- hero image & caption -->
+        <img src="tutedude.jpg" alt="Tutedude">
+        <p>TuteDude and a Drink</p>
+    </div>
+
+    <hr>
 
     <main>
-        <div class="about">
-            <h2>About TD</h2>
-            <p><span>TD</span>
-            was foundit in 2021. This demo project was created by <strong>TuteDude</strong>
-            for learning all major HTML tags.</p>
-            <p>
-               Level up your carrer with expert mentrorship & internship for free.
-            </p>
-        </div>
+        <h2>About <abbr title="">TD</abbr></h2> 
+        
+
+        <article> <abbr title="">TD</abbr> was founded in 2021. This demo project was created by <strong>TuteDude</strong> for learning all major HTML tags.</article>
+        <cite> &nbsp &nbsp &nbsp Level up your career with expert mentorship & internships for </cite><time datetime="">Free</time>
+
         <hr>
-        <div class="menu">
-            <h2>Our Menu</h2>
-        <table border="1" >
-            <p>TuteDude Complete Taco-Menu</p>
-            <thead>
+
+        <h2>Our Menu</h2>
+
+        <section>
+
+        <table border="">
+            <caption>
+                TuteDude Complete Taco Menu
+            </caption>
+            <thead>    <!-- table Head 1 -->
                 <tr>
-                    <th scope="col" rowspan="2">Category</th>
-                    <th scope="col" rowspan="2">Type</th>
-                    <th scope="col" colspan="2">Small Portion</th>
-                    <th scope="col" colspan="2">Large Portion</th>
+                    <th rowspan="2">Category</th>
+                    <th rowspan="2">Type</th>
+                    <th colspan="2">Small Portion</th>
+                    <th colspan="2">Large Portion</th>
                 </tr>
-                <tr>
-                    <th scope="col">Qty.</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Qty.</th>
-                    <th scope="col">Price</th>
+                <tr>   <!-- table Head 2 -->
+                    <th>Qty.</th>
+                    <th>Price</th>
+                    <th>Qty.</th>
+                    <th>Price</th>
                 </tr>
             </thead>
-            <tbody>
+             <tbody>   <!-- table body starts -->
+                         <!-- part-1 -->
                 <tr>
-                <th rowspan="3">TuteDude</th>
-                <td>Crunchy (Beef)</td>
-                <td>1</td>
-                <td>$1.50</td>
-                <td>3</td>
-                <td>$3.25</td>
+                    <th rowspan="3">TuteDude</th>
+                    <td>Crunchy (Beef)</td>
+                    <td>1</td>
+                    <td>$1.50</td>
+                    <td>3</td>
+                    <td>$3.25</td>
                 </tr>
                 <tr>
                     <td>Crunchy (Chicken)</td>
@@ -73,65 +79,65 @@
                     <td>3</td>
                     <td>$3.50</td>
                 </tr>
-                <tr>
+                 <tr>  
                     <td>Crunchy (Veggie)
-                        <table border="1" cellpadding="5" cellspacing="0">
-                        <tr>
-                            <th>Nutrient</th>
-                            <th>Value</th>
-                        </tr>
-                        <tr>
-                            <td>Calories</td>
-                            <td>150 kcal</td>
-                        </tr>
-                        <tr>
-                            <td>Protein</td>
-                            <td>5g</td>
-                        </tr>
-                        <tr>
-                            <td>Fiber</td>
-                            <td>4g</td>
-                        </tr>
-                        </table>
-                    </td>
+                        <table border="" >  <!-- nested table start-->
+                            <tr>
+                                <th>Nutrient</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr>
+                                <td>Calories</td>
+                                <td>150 kcal</td>
+                            </tr>
+                            <tr>
+                                <td>Protein</td>
+                                <td>5g</td>
+                            </tr>
+                            <tr>
+                                <td>Fiber</td>
+                                <td>4g</td>
+                            </tr>
+                        </table>   <!-- nested table end-->
+                    </td>  
                     <td>1</td>
                     <td>$1.25</td>
                     <td>3</td>
                     <td>$3.00</td>
                 </tr>
-                <!-- 2nd Part -->
+                <!-- part-2 -->
                 <tr>
-                <th rowspan="2">Soft TuteDude</th>
-                <td>Soft (Beef)</td>
-                <td>2</td>
-                <td>$3.50</td>
-                <td>4</td>
-                <td>$6.50</td>  
+                    <th rowspan="2">Soft TuteDude</th>
+                    <td>Soft (Beef)</td>
+                    <td>2</td>
+                    <td>$3.50</td>
+                    <td>4</td>
+                    <td>$6.50</td>
                 </tr>
                 <tr>
-                <td>Soft (Veggie)</td>
-                <td>2</td>
-                <td>$3.00</td>
-                <td>4</td>
-                <td>$5.50</td>
+                    <td>Soft (Veggie)</td>
+                    <td>2</td>
+                    <td>$3.00</td>
+                    <td>4</td>
+                    <td>$5.50</td>
                 </tr>
-               <!-- 3rd Part --> 
-                <tr>
+                <!-- part-3 -->
+                 <tr>
                     <th rowspan="2">Combos</th>
                     <td>2 Crunchy + Drink</td>
                     <td colspan="2">$4.50</td>
-                    <td rowspan="2" colspan="2">N/A</td>
-                </tr>
-                <tr>
-                    <td> 2 Soft + Drink
-                        <table border="1"<c>
-                            <br>Combo Meals <br>Nutrition Facts
-                            <tr>
-                            <th>Item</th>  <!-- Nested table head -->
-                            <th>Calori</th>
-                            <th>Sugar</th>
+                    <td colspan="2" rowspan="2">N/A</td>
+                 </tr>
+                 <tr>
+                    <td>2 Soft + Drink
+                        <Table border="">    <!-- 2nd nested table starts -->
+                            <caption>Combo Meals Nutrition <br> Facts</caption>
+                            <tr>    <!-- Nested table head -->
+                                <th>Item</th>
+                                <th>Calori</th>
+                                <th>Sugar</th>
                             </tr>
-                            <tr>   <!-- Nested table rows -->
+                            <tr>  <!-- Nested table rows -->
                                 <td>Soft Taco</td>
                                 <td>200 kcal</td>
                                 <td>2g</td>
@@ -141,96 +147,97 @@
                                 <td>120 kcal</td>
                                 <td>25g</td>
                             </tr>
-                            <tr>
+                             <tr>  <!-- Nested table footer -->
                                 <th>Total</th>
                                 <th>320 kcal</th>
                                 <th>27g</th>
                             </tr>
-                        </table>
+                        </Table>   <!-- 2nd nested table ends -->
                     </td>
                     <td colspan="2">$5.00</td>
-                </tr>
-                <tr>  <!-- 4th Part -->
-                <th rowspan="2">Extras</th>
-                <td>Chips & Salsa</td>
-                <td colspan="4">$2.50</td> 
-                </tr>
-                <tr>
-                <td>Guacamole</td>
-                <td colspan="4">$1.50</td>
-                </tr>
+                 </tr>
+                <!-- part-4 -->
+                 <tr>
+                    <th rowspan="2">Extras</th>
+                    <td>Chips & Salsa</td>
+                    <td colspan="4">$2.50</td>
+                 </tr>
+                 <tr>
+                    <td>Guacamole</td>
+                    <td colspan="4">$1.50</td>
+                 </tr>
             </tbody>
-            <tfoot>
+            <tfoot>   <!-- table foot -->
                 <th colspan="6">Average Meal Price Range: $2.00-$6.50</th>
             </tfoot>
-        </table>
-        <a href="">1. Back to Top</a>
-        </div>
+        </table>     <!-- table end -->
+
+        </section>
+
+        <a href="">1. Back to top</a>
+
         <hr>
-        <div class="trivia">
+
+        <h2>Taco Trivia</h2>
             <aside>
                 <details>
                     <summary>When did TuteDude first appear in United States ?</summary>
                     <p>In 2025</p>
-                </details>   
+                </details>
             </aside>
-        </div>
+
         <hr>
-        <div class="extras">
+
+        <section id="extras">    <!-- extras section -->
             <h2>Media Fun</h2>
-            <h3>Listen to this Music</h3>
+            <h3>Listen to the Music</h3>
             <audio src="" controls></audio>
-            <h3>Watch the Video</h3>
+            <h3>Watch Taco Video</h3>
             <video src="" controls></video>
-        </div>
-        <hr>
-        <div class="feedback">
-            <h2>Give us your feedback</h2>
-            <form>
-  <fieldset>
-    <legend>Your Info</legend>
-    <label for="name1">Name :</label>
-    <input type="text" id="name1" name="name1"> 
-    <br><br>
-    <label for="email1">Email :</label>
-    <input type="email" id="email1" name="email1"> <br><br>
-    <label for="browser">Favorite Taco:</label>
-    <input list="browsers" id="browser" name="browser">
-        <datalist id="browsers">
-        <option value="Edge">
-        <option value="Firefox">
-        <option value="Chrome">
-        <option value="Opera">
-        <option value="Safari">
-        </datalist>
-  </fieldset>
-  <fieldset>
-    <legend >Your Message</legend>
-    <label for="cmnr">Message:</label><br>
-    <textarea name="cmnt" id="cmnt"></textarea>
-  </fieldset>
-  <div class="button">
-    <button>Submit</button>
-  </div>
-</form>
-        </div>
+        </section>
+
         <hr>
     </main>
+
+    <h2>Feedback Form</h2>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Your Info</legend>
+                    <label for="name1">Name :</label>
+                    <input type="text" id="name1" name="name1"> 
+                    <br><br>
+                    <label for="email1">Email :</label>
+                    <input type="email" id="email1" name="email1"> <br><br>
+                    <label for="taco">Favorite Taco:</label>
+                    <select name="taco" id="taco">
+                        <option value="crunchy">Crunchy</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="msg">Message:</label><br>
+                <textarea name="msg" id="msg" ></textarea>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
 
     <footer>   <!-- Footer Section -->
         <h2>Contact Us</h2>
         <address>
             TuteDude <br>
-            12/A,Queens Hill <br>
-            APJ Education city,Andhra Pradesh,655012 <br>
+            123 Taco Street <br>
+            Taco Town, TX 75000 <br>
             <a href="">info@tutedude.com</a>
         </address>
-        <br>
+        <br><br>
         <time datetime="">
             © 2025,TuteDude All rights reserved
         </time>
 
     </footer>
-
+    
 </body>
 </html>
